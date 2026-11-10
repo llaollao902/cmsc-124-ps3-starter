@@ -15,7 +15,7 @@ misread. Those entries belong in the correction commits.
 Replace this line with the rule behind this case's four fields.
 
 ## P02
-Replace this line with the rule behind this case's four fields.
+`''(+ 1 2)` heads with the special operator `quote`, since the reader turns the leading `'` into a `quote` form and the corpus's own quote only stores the form unevaluated. `quote` returns its argument untouched, so the list `(+ 1 2)` comes back as data and `+` never runs. That is a list with at least one element, so the kind is `cons`, and its three top-level elements make the length 3.
 
 ## P03
 Replace this line with the rule behind this case's four fields.
