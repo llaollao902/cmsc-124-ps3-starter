@@ -51,7 +51,7 @@ The form heads with `labels`, a special operator that binds `down` as a local fu
 Replace this line with the rule behind this case's four fields.
 
 ## P14
-Replace this line with the rule behind this case's four fields.
+`(mapcar (lambda (n) (* n n)) '(1 2 3))` heads with the function `mapcar`, so its arguments are evaluated first, where the `lambda` form gives an anonymous function and the quote hands over the list `(1 2 3)` unevaluated. `mapcar` applies that function to every element and collects the results, so 1, 2, and 3 become 1, 4, and 9. That is a list with at least one element, so the kind is `cons`, and its three top-level elements make the length 3 and the value `(1,4,9)`.
 
 ## P15
 Replace this line with the rule behind this case's four fields.
