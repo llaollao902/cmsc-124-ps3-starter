@@ -33,7 +33,7 @@ Replace this line with the rule behind this case's four fields.
 Replace this line with the rule behind this case's four fields.
 
 ## P08
-Replace this line with the rule behind this case's four fields.
+`(if (null '()) 'empty 'full)` heads with `if`, a special operator that evaluates the condition and then only one branch. The condition `(null '())` is true because the quote hands `null` the empty list, so the `'empty` branch is evaluated, and `quote` returns the symbol `empty` untouched while `'full` never runs. A symbol that isn't `nil` has the kind `symbol`, and it is not a sequence, so the length is `none`.
 
 ## P09
 Replace this line with the rule behind this case's four fields.
