@@ -21,7 +21,7 @@ Replace this line with the rule behind this case's four fields.
 Replace this line with the rule behind this case's four fields.
 
 ## P04
-Replace this line with the rule behind this case's four fields.
+The corpus's own quote only stores the form unevaluated, so the form being evaluated is the bare symbol `t`, an atom with no head, and the `operator` is `none`. A symbol evaluates to its binding, and `t` is bound to itself, so the value is `t`. It is a symbol that isn't `nil`, so the kind is `symbol`, and it is not a sequence, so the length is `none`.
 
 ## P05
 Replace this line with the rule behind this case's four fields.
