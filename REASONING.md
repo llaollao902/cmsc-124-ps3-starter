@@ -27,7 +27,7 @@ The corpus's own quote only stores the form unevaluated, so the form being evalu
 Replace this line with the rule behind this case's four fields.
 
 ## P06
-Replace this line with the rule behind this case's four fields.
+`(car '())` heads with the function `car`, so its argument is evaluated first, and the quote hands `car` the empty list unevaluated. `car` answers `nil` when handed the empty list, so the value is `nil`. That is the kind `null`, and since `nil` is the empty sequence, its length is 0 rather than `none`.
 
 ## P07
 Replace this line with the rule behind this case's four fields.
