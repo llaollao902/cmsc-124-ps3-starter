@@ -10,7 +10,7 @@ P08	empty	symbol	none	special-operator
 P09	TODO	TODO	TODO	TODO
 P10	30	integer	none	special-operator
 P11	TODO	TODO	TODO	TODO
-P12	TODO	TODO	TODO	TODO
+P12	(3,2,1)	cons	3	special-operator
 P13	TODO	TODO	TODO	TODO
 P14	TODO	TODO	TODO	TODO
 P15	TODO	TODO	TODO	TODO

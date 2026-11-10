@@ -45,7 +45,7 @@ The form heads with `progn`, a special operator that evaluates its subforms in o
 Replace this line with the rule behind this case's four fields.
 
 ## P12
-Replace this line with the rule behind this case's four fields.
+The form heads with `labels`, a special operator that binds `down` as a local function so that it can call itself. `(down 3)` recurses as `(cons 3 (cons 2 (cons 1 '())))`, where the base case `(= n 0)` returns the empty list and `cons` puts each `n` in front of the rest. That is a chain of cons cells, so the kind is `cons`, and its three top-level elements make the length 3 and the value `(3,2,1)`.
 
 ## P13
 Replace this line with the rule behind this case's four fields.
