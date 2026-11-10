@@ -57,4 +57,4 @@ Replace this line with the rule behind this case's four fields.
 Replace this line with the rule behind this case's four fields.
 
 ## P16
-Replace this line with the rule behind this case's four fields.
+The form heads with `let`, a special operator that runs its initializers, binds the variables, and only then evaluates the body. `factor` is an ordinary lexical variable, so the `lambda` captures the binding that held 2 when it was written, and the inner `let` that binds `factor` to 10 never reaches it. `(funcall f 3)` therefore computes `(* 3 2)`, which is 6, a whole number, so the kind is `integer` and the length is `none`.
