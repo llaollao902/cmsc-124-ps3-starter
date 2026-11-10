@@ -39,7 +39,7 @@ Replace this line with the rule behind this case's four fields.
 Replace this line with the rule behind this case's four fields.
 
 ## P10
-Replace this line with the rule behind this case's four fields.
+The form heads with `progn`, a special operator that evaluates its subforms in order and returns the value of the last one. `defvar` declares `*ps3-rate*` special, so rebinding it with `let` changes what `ps3-scale` sees for the duration of that `let`, however far away the function was written, and `(* 3 10)` gives 30. That is a whole number, so the kind is `integer`, and it is not a sequence, so the length is `none`.
 
 ## P11
 Replace this line with the rule behind this case's four fields.
